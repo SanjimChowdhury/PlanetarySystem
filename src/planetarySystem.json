@@ -1,0 +1,30 @@
+{
+  "planetSys": [
+    {
+      "id": "0dad",
+      "planetName": "mars",
+      "satelliteName": [
+        "demos",
+        "phebos"
+      ]
+    },
+    {
+      "id": "80ea",
+      "planetName": "saturn",
+      "satelliteName": [
+        "titan",
+        "rhea",
+        "iaptus"
+      ]
+    },
+    {
+      "id": "b619",
+      "planetName": "jupiter",
+      "satelliteName": [
+        "europa",
+        "io",
+        "ganymede"
+      ]
+    }
+  ]
+}
