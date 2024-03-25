@@ -13,8 +13,9 @@ const Systems = () => {
       })
   }, [])
 
-    //Edit System
-const updateSystem = async ({ planetName, satelliteName }, id) => {
+//Edit System
+const updateSystem = async (editedSystem) => {
+  const { id, planetName, satelliteName } = editedSystem;
   try {
     const response = await axios.put(`/api/planetSys/${id}`, { planetName, satelliteName });
     console.log(response.data);
@@ -22,6 +23,7 @@ const updateSystem = async ({ planetName, satelliteName }, id) => {
     console.error(error);
   }
 };
+
 
   //Delete system
   const deleteSys = async (id) => {

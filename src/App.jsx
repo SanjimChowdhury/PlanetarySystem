@@ -20,7 +20,7 @@ const App = () => {
   return (
     <Router>
       <>
-        <h1 className="text-orange-400">Planetary System</h1>
+        <h1 className="text-orange-400 text-5xl mb-4">Planetary System</h1>
         <Systems />
         <SysForm addSystem={addNewSys} />
       </>
