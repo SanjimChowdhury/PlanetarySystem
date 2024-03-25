@@ -6,6 +6,7 @@ import SysForm from './components/SysForm'
 
 
 const App = () => {
+  //Add new System
   const addNewSys = async ({ planetName, satelliteName }) => {
     try {
       const res = await axios.post('/api/planetSys', { planetName, satelliteName });
@@ -14,6 +15,8 @@ const App = () => {
       console.error(error);
     }
   };
+
+
   return (
     <Router>
       <>
